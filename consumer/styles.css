@@ -1,0 +1,33 @@
+body {
+	font-family: Arial;
+	font-size: 80%;
+}
+
+.error {
+	color: #c00;
+	font-weight: bold;
+}
+
+.info {
+	color: #0c0;
+	font-weight: bold;
+}
+
+.error span, .info span {
+	font-weight: normal;
+}
+
+#openid_identifier {
+	width: 322px;
+	margin: 0px;
+	padding: 2px;
+	padding-left: 20px;
+	vertical-align: middle;
+	background-image: url('http://www.idselector.com/images/openid.ico');
+	background-repeat: no-repeat;
+	background-position: 3px 2px;
+}
+
+input, button {
+	vertical-align: middle;
+}
